@@ -1,15 +1,19 @@
 {
   "expo": {
-    "name": "ExpoAppDemo",
-    "slug": "ExpoAppDemo",
+    "name": "gift",
+    "slug": "gift",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/app-icon.png",
     "scheme": "expoappdemo",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.ExpoAppDemo",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -19,7 +23,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.ExpoAppDemo"
     },
     "web": {
       "output": "static",
@@ -38,11 +43,32 @@
             "backgroundColor": "#000000"
           }
         }
+      ],
+      [
+        "expo-updates",
+        {
+          "username": "yalier"
+        }
       ]
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 3000,
+      "url": "https://u.expo.dev/1b937baf-9a7d-433b-9c06-f13b26c32424"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1b937baf-9a7d-433b-9c06-f13b26c32424"
+      }
     }
   }
 }
