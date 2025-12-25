@@ -12,7 +12,7 @@ export default function HomeScreen() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <ParallaxScrollView
-        headerBackgroundColor={{ light: "#A1CEDC", dark: "#1D3D47" }}
+        headerBackgroundColor={{ light: "#f8d9e6", dark: "#1D3D47" }}
         headerImage={
           <Image
             source={require("@/assets/images/bg.jpg")}

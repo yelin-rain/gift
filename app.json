@@ -54,12 +54,12 @@
       "reactCompiler": true
     },
     "runtimeVersion": {
-      "policy": "sdkVersion"
+      "policy": "appVersion"
     },
     "updates": {
       "enabled": true,
       "checkAutomatically": "ON_LOAD",
-      "fallbackToCacheTimeout": 3000,
+      "fallbackToCacheTimeout": 1000,
       "url": "https://u.expo.dev/1b937baf-9a7d-433b-9c06-f13b26c32424"
     },
     "extra": {

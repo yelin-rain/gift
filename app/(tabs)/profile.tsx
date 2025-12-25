@@ -36,9 +36,7 @@ export default function ProfileScreen() {
         <ThemedView style={styles.profileCard}>
           <View style={styles.heroRow}>
             <Image
-              source={{
-                uri: "@/assets/images/avatar.png",
-              }}
+              source={require("@/assets/images/avatar1.jpg")}
               style={styles.avatar}
             />
             <View style={styles.heroInfo}>
